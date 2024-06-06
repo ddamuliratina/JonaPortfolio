@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+h1,
+nav,
+ol {
+  display: inline-block;
+}
+
+h1 {
+  color: #912543;
+}
+
+.top-right ol {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+h1 {
+  width: 60%;
+}
+
+#resume {
+  border: 2px solid #912543;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+body {
+  background-color: rgb(252, 249, 255);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+
+  .top-right ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+main {
+  display: inline-block;
+
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .top-right ol li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+section {
+  margin-bottom: 40px;
+  display: block;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.profile-text {
+  max-width: 600px;
+}
+
+section.resume {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #912543;
+  width: 5rem;
+}
+
+section.resume > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+div.contacts {
+  width: 50%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  background-color: whitesmoke;
+  padding-left: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+div.contacts > p.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #192a51;
+  margin-bottom: 1rem;
+}
+
+div.icons {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+div.icon {
+  border-radius: 50%;
+  padding: 1.5rem;
+  background-color: #192a51;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+div.icons svg {
+  height: 30px;
+  width: 30px;
+  color: #912543;
+}
+
+div.contacts {
+  position: static;
+  margin-top: 2rem;
+  width: 100%;
+  padding-left: 5rem;
+}
+
+#projects {
+  padding: 20px;
+}
+
+.project-tile {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.project-tile h3 {
+  margin-top: 0;
+}
+
+.project-tile img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-tile p {
+  margin-bottom: 10px;
+}
+
+div.project-tile {
+  margin-top: 2rem;
+  margin-right: 10rem;
+  padding: 1rem;
+  text-align: center;
+  border-color: #912543;
+  width: 10rem;
+}
+
+div.project-tile > a {
+  color: #912543;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
